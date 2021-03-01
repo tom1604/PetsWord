@@ -1,0 +1,8 @@
+F:\Projects\PetsWorld\PetsWorld\Repositories\bin\Debug\netstandard2.0\Repositories.deps.json
+F:\Projects\PetsWorld\PetsWorld\Repositories\bin\Debug\netstandard2.0\Repositories.dll
+F:\Projects\PetsWorld\PetsWorld\Repositories\bin\Debug\netstandard2.0\Repositories.pdb
+F:\Projects\PetsWorld\PetsWorld\Repositories\obj\Debug\netstandard2.0\Repositories.AssemblyInfoInputs.cache
+F:\Projects\PetsWorld\PetsWorld\Repositories\obj\Debug\netstandard2.0\Repositories.AssemblyInfo.cs
+F:\Projects\PetsWorld\PetsWorld\Repositories\obj\Debug\netstandard2.0\Repositories.csproj.CoreCompileInputs.cache
+F:\Projects\PetsWorld\PetsWorld\Repositories\obj\Debug\netstandard2.0\Repositories.dll
+F:\Projects\PetsWorld\PetsWorld\Repositories\obj\Debug\netstandard2.0\Repositories.pdb
