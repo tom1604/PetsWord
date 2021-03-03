@@ -116,9 +116,13 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
+    <Content Include="Static\images\menu_strip.png" />
+    <Content Include="Static\js\bootstrap.bundle.min.js" />
+    <Content Include="Static\js\popper.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Areas\Controllers\HomeController.cs" />
     <Compile Include="Integration\AutofacConfig.cs" />
     <Compile Include="Integration\RouteConfig.cs" />
     <Compile Include="Global.asax.cs">
@@ -128,7 +132,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Areas\Views\web.config" />
+    <Content Include="Areas\Views\Shared\Layout\_MainLayout.cshtml" />
+    <Content Include="Areas\Views\Home\Index.cshtml" />
     <None Include="packages.config" />
+    <Content Include="Static\css\bootstrap.min.css" />
+    <Content Include="Static\js\bootstrap.min.js" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -137,12 +145,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Data\" />
-    <Folder Include="Areas\Controllers\" />
     <Folder Include="Areas\Models\" />
-    <Folder Include="Static\css\" />
-    <Folder Include="Static\images\" />
-    <Folder Include="Static\js\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Business\Business.csproj">
