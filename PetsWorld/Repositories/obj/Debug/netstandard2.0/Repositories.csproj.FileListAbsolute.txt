@@ -6,3 +6,4 @@ F:\Projects\PetsWorld\PetsWorld\Repositories\obj\Debug\netstandard2.0\Repositori
 F:\Projects\PetsWorld\PetsWorld\Repositories\obj\Debug\netstandard2.0\Repositories.csproj.CoreCompileInputs.cache
 F:\Projects\PetsWorld\PetsWorld\Repositories\obj\Debug\netstandard2.0\Repositories.dll
 F:\Projects\PetsWorld\PetsWorld\Repositories\obj\Debug\netstandard2.0\Repositories.pdb
+F:\Projects\PetsWorld\PetsWorld\Repositories\obj\Debug\netstandard2.0\Repositories.csprojAssemblyReference.cache

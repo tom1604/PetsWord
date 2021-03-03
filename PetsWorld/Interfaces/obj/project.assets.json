@@ -25,6 +25,26 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Models.dll": {}
+        }
+      },
+      "Repositories/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Repositories.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Repositories.dll": {}
+        }
       }
     }
   },
@@ -171,11 +191,23 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "Models/1.0.0": {
+      "type": "project",
+      "path": "../Models/Models.csproj",
+      "msbuildProject": "../Models/Models.csproj"
+    },
+    "Repositories/1.0.0": {
+      "type": "project",
+      "path": "../Repositories/Repositories.csproj",
+      "msbuildProject": "../Repositories/Repositories.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
-      "NETStandard.Library >= 2.0.3"
+      "Models >= 1.0.0",
+      "NETStandard.Library >= 2.0.3",
+      "Repositories >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -211,7 +243,14 @@
       "frameworks": {
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "F:\\Projects\\PetsWorld\\PetsWorld\\Models\\Models.csproj": {
+              "projectPath": "F:\\Projects\\PetsWorld\\PetsWorld\\Models\\Models.csproj"
+            },
+            "F:\\Projects\\PetsWorld\\PetsWorld\\Repositories\\Repositories.csproj": {
+              "projectPath": "F:\\Projects\\PetsWorld\\PetsWorld\\Repositories\\Repositories.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
